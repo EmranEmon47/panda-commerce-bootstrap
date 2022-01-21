@@ -16,7 +16,7 @@
   <body>
     <!-- header start -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="" />
@@ -38,13 +38,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#sub">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -223,7 +223,7 @@
 
       <!-- shoes section Start -->
 
-      <section class="container mt-5">
+      <section class="container mt-5" id="shoes">
         <div class="d-flex justify-content-between">
           <h2 class="mb-4">Shoes</h2>
           <a class="text-decoration-none" href="">See All</a>
@@ -296,7 +296,7 @@
       </section>
       <!-- shoes section End -->
       <!-- Bag section Start -->
-      <section class="container mt-5">
+      <section class="container my-5" id="backpack">
         <div class="d-flex justify-content-between">
           <h2 class="mb-4">Backpack</h2>
           <a class="text-decoration-none" href="">See All</a>
@@ -356,7 +356,25 @@
         </div>
       </section>
       <!-- Bag section End -->
+
+      <!-- stay in touch section start -->
+      <section
+        style="height: 300px"
+        class="container bg-secondary text-white d-flex justify-content-center align-items-center rounded-3"
+       id="sub">
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales specials and more</p>
+          <input type="text" placeholder="Your Email" />
+          <br />
+          <button class="btn btn-warning mt-2">SUBMIT</button>
+        </div>
+      </section>
+      <!-- stay in touch section end -->
     </main>
+    <footer style="height: 100px;" class="mt-5 d-flex justify-content-center align-items-end">
+      <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
     <!-- bootstrap script link -->
     <script
